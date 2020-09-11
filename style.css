@@ -1,0 +1,70 @@
+
+body {
+  background-color: white;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+  font-style: italic;
+  font-family: times new roman;
+}
+
+
+p, li, ul {
+  font-family: verdana;
+  font-size: 14px;
+  margin: 15px;
+}
+
+h6 {
+  font-family: cursive;
+  font-size: 17px;
+  margin-bottom: auto;
+  margin: auto;
+  margin: 15px;
+}
+
+#carouselExampleControls {
+  display: block;
+  text-align:center;
+  margin:auto;
+  padding:20px;
+  border: 1x solid black
+  align-items:center;
+}
+
+.carousel-inner {
+  display: block;
+  border: 1x solid black
+}
+
+body {
+  margin:20px;
+}
+
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+img {
+  border-radius: 12px;
+  text-align: center;
+}
+
+.berry {
+  transform: rotate(7deg);
+  float: right;
+  margin: 10px;
+}
+
+[data-component="slideshow"] .slide {
+	display: none;
+  text-align: center;
+}
+
+[data-component="slideshow"] .slide.active {
+	display: block;
+}
